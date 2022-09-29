@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+.image {
+  background-image: url("images/images.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px;
+  height: 80vh;
+  /* position: fixed; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  background-color: aquamarine;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+  border-radius: 10px;
+}
+
+.save {
+  margin-top: 6rem;
+  border-radius: 60px;
+
+  background-color: red;
+  text-align: center;
+  color: white;
+  margin-left: 30rem;
+  position: relative;
+  top: 9px;
+  display: none;
+}
+.save h2 {
+  text-align: center;
+  padding-top: 2.5rem;
+
+  padding-bottom: 37px;
+}
+.image:hover .save {
+  display: inherit;
+  cursor: pointer;
+  /* transform: translateY(20px) } */
+}
+.icons {
+    display: flex;
+    justify-content: center;
+  margin-left: 10px;
+  position: relative;
+  top: 32rem;
+
+  color: black;
+  display: none;
+}
+.first {
+  border-radius: 40px;
+  width: 170px;
+  height: 25px;
+  text-align: center;
+  padding: 25px;
+  /* padding-top: 20px; */
+  background-color: azure;
+  margin-right: 8rem;
+  font-size: 20px;
+  /* display: none; */
+}
+.second {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  margin-right: 8rem;
+  opacity: 80%;
+  /* padding-top: 20px; */
+}
+.image:hover .icons {
+  display: flex ;
+  cursor: pointer;
+}
+.third {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    opacity: 80%;
+}
